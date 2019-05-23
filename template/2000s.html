@@ -90,7 +90,7 @@
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="landingpage/index.html">
+        <a class="nav-link" href="dashboard.html">
           <i class="fas fa-guitar"></i>
           <span>Dashboard</span>
         </a>
@@ -110,7 +110,7 @@
           <a class="dropdown-item" href="2010s.html">2010's</a>
         </div>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="dashboard.html">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Charts</span></a>
@@ -119,7 +119,7 @@
         <a class="nav-link" href="tables.html">
           <i class="fas fa-fw fa-table"></i>
           <span>Tables</span></a>
-      </li>
+      </li> -->
     </ul>
 
     <div id="content-wrapper">
@@ -131,14 +131,43 @@
           <li class="breadcrumb-item">
             <a href="landingpage/index.html">Dashboard</a>
           </li>
-          <li class="breadcrumb-item active">2000s</li>
+          <li class="breadcrumb-item active">2000 Decade Analysis</li>
         </ol>
 
         <!-- Page Content -->
         <h1>2000's</h1>
         <hr>
         <p>Don’t say BYE BYE BYE! Come kick it in the 2000s!</p>
-
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-chart-area"></i>
+            Song Count By Artist - 2000s</div>
+          <div class="card-body">
+            <canvas width="100%" height="30"></canvas>
+            <img class="img-fluid" src ="../Images/2000s_song_count_artist.png" alt>
+          </div>
+          <div class="card-footer small text-muted"></div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-chart-area"></i>
+            Top 10 Words Used - 2000s</div>
+          <div class="card-body">
+            <canvas width="100%" height="30"></canvas>
+            <img class="img-fluid" src ="../Images/top_10_words_cleaned_2000s.png" alt>
+          </div>
+          <div class="card-footer small text-muted"></div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">
+            <i class="fas fa-chart-area"></i>
+            Vocabulary Count - 2000s</div>
+          <div class="card-body">
+            <canvas width="100%" height="30"></canvas>
+            <img class="img-fluid" src ="../Images/vocab_count_clean_2000s.png" alt>
+          </div>
+          <div class="card-footer small text-muted"></div>
+        </div>
       </div>
       <!-- /.container-fluid -->
 
